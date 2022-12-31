@@ -1,0 +1,170 @@
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --primary-white-color: #ffffff;
+  --seconday-white-color: #f4f4fd;
+  --pressed-color: #404bbf;
+  --primary-background-color: #e5e5e5;
+}
+body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  font-family: inherit;
+}
+/* -------------------------------------Navigation section--------------------------------- */
+.nav-section {
+  background: var(--primary-white-color);
+}
+.nav-list {
+  list-style: none;
+}
+.list-link {
+  list-style: none;
+}
+.logo {
+  accent-color: var(--accent-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway';
+}
+.nav-list a {
+  text-decoration: none;
+  color: var(--title-text-color);
+}
+.nav-list a:hover,
+.nav-list a:focus {
+  color: var(--pressed-color);
+}
+.list-link a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.list-link a:hover,
+.list-link a:focus {
+  color: var(--pressed-color);
+}
+/*---------------------------------------- Main Section------------------------------------------ */
+.hero-section {
+  background-color: var(--title-text-color);
+}
+.hero-title {
+  color: var(--primary-white-color);
+  background-color: var(--title-text-color);
+}
+.button {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+}
+.button:hover,
+.button:focus {
+  background: #404bbf;
+  color: var(--primary-white-color)
+}
+
+/* -----------------------------------------Feutures section--------------------------------------- */
+.features-section {
+  background: #e5e5e5;
+}
+.visually-hidden-title {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.features-list {
+  list-style: none;
+}
+
+.subtitle {
+  color: var(--title-text-color);
+}
+.text {
+  color: var(--primary-text-color);
+}
+
+/* -------------------------------------mission-section-------------------------------------------- */
+.mission-section {
+  background: #e5e5e5;
+}
+.mission-title {
+  color: var(--title-text-color);
+}
+
+.mission-list {
+  list-style: none;
+}
+/* -----------------------------------------Team section------------------------------------------- */
+.team-section {
+  background: var(--seconday-white-color);
+}
+.team-title {
+  color: var(--title-text-color);
+}
+.team-subtitle {
+  color: var(--title-text-color);
+}
+.text-description {
+  color: var(--primary-text-color);
+}
+.team-list {
+  list-style: none;
+}
+/* ----------------------------------------Footer section----------------------------------------- */
+.footer-logo-section {
+  background: var(--title-text-color);
+}
+.nav-logo {
+  accent-color: var(--accent-color);
+  color: var(--seconday-white-color);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.text-logo {
+  color: #e7e9fc;
+}
+/* -------------------------------------------Portfolio page---------------------------------------- */
+.nav-page-section {
+  background: var(--primary-background-color);
+}
+.visually-hidden-work-title {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.button {
+  background: #e7e9fc;
+  color: #4d5ae5;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: none;
+}
+.nav-button-list {
+  list-style: none;
+}
+.button:hover,
+.button:focus {
+  background: #4d5ae5;
+  color: var(--primary-white-color);
+}
+.achivement-list{
+  list-style: none;
+}
