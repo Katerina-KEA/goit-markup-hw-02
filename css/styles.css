@@ -27,20 +27,14 @@ body {
 .logo {
   accent-color: var(--accent-color);
   font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  line-height: 1.33;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.end-logo {
-  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
+}
+.end-logo {
   color: var(--title-text-color);
 }
 .nav-list a {
@@ -101,7 +95,7 @@ body {
 /* -----------------------------------------Feutures section--------------------------------------- */
 
 .features-section {
-  background: var(--background-white-color);
+  background: ;
 }
 .visually-hidden-title {
   position: absolute;
@@ -132,8 +126,9 @@ body {
 }
 /*------------------------ Mission section----------------  */
 .mission-section {
-  background: var(--background-white-color);
+  background: ;
 }
+
 .mission-title {
   font-size: 36px;
   line-height: 1.11;
@@ -161,6 +156,7 @@ body {
 .team-section {
   background: var(--primary-white-color);
   border-radius: 16px 16px 0px 0px;
+  background-color: var(--seconday-white-color);
 }
 .team-title {
   font-weight: 700;
@@ -169,7 +165,6 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--title-text-color);
-  background: var(--seconday-white-color);
 }
 .team-list {
   list-style: none;
@@ -198,22 +193,15 @@ body {
 .logo {
   accent-color: var(--accent-color);
   font-family: "Raleway", sans-serif;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-color);
   text-decoration: none;
 }
 .footer-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--primary-white-color);
 }
 .text-logo {
@@ -243,11 +231,11 @@ body {
 }
 .button-item {
   box-sizing: border-box;
-  background: #f4f4fd;
+  background: var(--seconday-white-color);
   border: 1px solid var(--button-border);
   border-radius: 4px;
   font-family: inherit;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -259,14 +247,6 @@ body {
   background: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
   color: var(--primary-white-color);
 }
 .achivement-list {
